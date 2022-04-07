@@ -1,0 +1,88 @@
+{
+  "entity.toretoise.ambient": {
+	"subtitle": "quark.subtitles.toretoise_ambient",
+	"sounds": [
+	  {
+		"name": "mob/turtle/idle1",
+		"volume": 0.8
+	  },
+	  {
+		"name": "mob/turtle/idle2",
+		"volume": 0.7
+	  },
+	  {
+		"name": "mob/turtle/idle3",
+		"volume": 0.8
+	  }
+	]
+  },
+  "entity.toretoise.hurt": {
+	"subtitle": "quark.subtitles.toretoise_hurt",
+	"sounds": [
+	  "mob/turtle/hurt1",
+	  "mob/turtle/hurt2",
+	  "mob/turtle/hurt3",
+	  "mob/turtle/hurt4",
+	  "mob/turtle/hurt5"
+	]
+  },
+  "entity.toretoise.death": {
+	"subtitle": "quark.subtitles.toretoise_death",
+	"sounds": [
+	  "mob/turtle/death1",
+	  "mob/turtle/death2",
+	  "mob/turtle/death3"
+	]
+  },
+  "entity.toretoise.eat": {
+	"subtitle": "quark.subtitles.toretoise_eat",
+	"sounds": [
+	  "random/eat1",
+	  "random/eat2",
+	  "random/eat3"
+	]
+  },
+  "entity.toretoise.eat_satiated": {
+	"subtitle": "quark.subtitles.toretoise_eat_satiated",
+	"sounds": [
+	  {
+		"name": "random/eat1",
+		"pitch": 0.5
+	  },
+	  {
+		"name": "random/eat2",
+		"pitch": 0.5
+	  },
+	  {
+		"name": "random/eat3",
+		"pitch": 0.5
+	  }
+	]
+  },
+  "entity.toretoise.angry": {
+	"subtitle": "quark.subtitles.toretoise_angry",
+	"sounds": [
+	  "mob/zombie/woodbreak"
+	]
+  },
+  "entity.toretoise.harvest": {
+	"subtitle": "quark.subtitles.toretoise_harvest",
+	"sounds": [
+	  "block/lantern/break1",
+	  "block/lantern/break2",
+	  "block/lantern/break3",
+	  "block/lantern/break4",
+	  "block/lantern/break5",
+	  "block/lantern/break6"
+	]
+  },
+  "entity.toretoise.regrow": {
+	"subtitle": "quark.subtitles.toretoise_regrow",
+	"sounds": [
+	  "dig/stone1",
+	  "dig/stone2",
+	  "dig/stone3",
+	  "dig/stone4"
+	]
+  }
+}

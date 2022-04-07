@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"DWD",
+	"  W",
+	"  D"
+  ],
+  "key": {
+	"W": {
+	  "tag": "minecraft:planks"
+	},
+	"D": {
+	  "item": "minecraft:diamond"
+	}
+  },
+  "result": {
+	"item": "quark:pickarang"
+  }
+}

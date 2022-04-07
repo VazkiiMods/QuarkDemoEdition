@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "quark",
+  "version": "${version}",
+  "name": "Quark",
+  "description": "Small things, improving Minecraft bit by bit. Lite Edition for BlanketCon",
+  "authors": [
+	"Vazkii",
+	"WireSegal",
+	"MCVinnyq",
+	"Sully"
+  ],
+  "contributors": [
+	"MoriyaShiine"
+  ],
+  "contact": {
+	"sources": "https://github.com/VazkiiMods/QuarkDemoEdition",
+	"issues": "https://github.com/VazkiiMods/QuarkDemoEdition/issues"
+  },
+  "license": "https://github.com/Vazkii/Quark/blob/master/LICENSE.md",
+  "icon": "assets/quark/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"main": [
+	  "moriyashiine.quark.common.Quark"
+	],
+	"client": [
+	  "moriyashiine.quark.client.QuarkClient"
+	]
+  },
+  "mixins": [
+	"quark.mixins.json"
+  ],
+  "accessWidener": "quark.accesswidener",
+  "depends": {
+	"fabricloader": ">=0.13.3",
+	"minecraft": "~1.18.2",
+	"java": ">=17",
+	"fabric": ">=0.48.0"
+  }
+}
