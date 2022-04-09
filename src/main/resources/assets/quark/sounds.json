@@ -1,4 +1,31 @@
 {
+	"entity.pickarang.throw": {
+		"subtitle": "quark.subtitles.throw_pickarang",
+		"sounds": [
+			{ "name": "quark:entity/pickarang/throw", "pitch": 1.2 }
+		]
+	},
+	"entity.pickarang.clank": {
+		"subtitle": "quark.subtitles.clank_pickarang",
+		"sounds": [
+			{ "name": "minecraft:random/anvil_land", "pitch": 2.0, "volume": 0.5 }
+		]
+	},
+	"entity.pickarang.spark": {
+		"subtitle": "quark.subtitles.spark_pickarang",
+		"sounds": [
+			{ "name": "minecraft:random/fizz", "pitch": 0.5, "volume": 0.5 }
+		]
+	},
+	"entity.pickarang.pickup": {
+		"subtitle": "quark.subtitles.pickup_pickarang",
+		"sounds": [
+			{ "name": "minecraft:random/pop", "pitch": 1.125, "volume": 0.5 },
+			{ "name": "minecraft:random/pop", "pitch": 1.0, "volume": 0.5 },
+			{ "name": "minecraft:random/pop", "pitch": 0.875, "volume": 0.5 },
+			{ "name": "minecraft:random/pop", "pitch": 0.75, "volume": 0.5 }
+		]
+	},
   "entity.toretoise.ambient": {
 	"subtitle": "quark.subtitles.toretoise_ambient",
 	"sounds": [

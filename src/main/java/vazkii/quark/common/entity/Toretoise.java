@@ -1,6 +1,6 @@
 package vazkii.quark.common.entity;
 
-import vazkii.quark.common.registry.ModSoundEvents;
+import vazkii.quark.common.registry.QuarkSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;
@@ -99,7 +99,7 @@ public class Toretoise extends Animal {
 				double z = getZ() + getBbWidth() / 2;
 				if (level instanceof ServerLevel serverLevel) {
 					if (angryTicks == 3) {
-						playSound(ModSoundEvents.ENTITY_TORETOISE_ANGRY, 1, 0.2F);
+						playSound(QuarkSounds.ENTITY_TORETOISE_ANGRY, 1, 0.2F);
 					} else if (angryTicks == 0) {
 						serverLevel.sendParticles(ParticleTypes.CLOUD, x, y, z, 200, dangerRange, 0.5, dangerRange, 0);
 					}
@@ -154,19 +154,19 @@ public class Toretoise extends Animal {
 	@Nullable
 	@Override
 	protected SoundEvent getAmbientSound() {
-		return ModSoundEvents.ENTITY_TORETOISE_AMBIENT;
+		return QuarkSounds.ENTITY_TORETOISE_AMBIENT;
 	}
 
 	@Nullable
 	@Override
 	protected SoundEvent getHurtSound(DamageSource source) {
-		return ModSoundEvents.ENTITY_TORETOISE_HURT;
+		return QuarkSounds.ENTITY_TORETOISE_HURT;
 	}
 
 	@Nullable
 	@Override
 	protected SoundEvent getDeathSound() {
-		return ModSoundEvents.ENTITY_TORETOISE_DEATH;
+		return QuarkSounds.ENTITY_TORETOISE_DEATH;
 	}
 
 	@Override
@@ -219,7 +219,7 @@ public class Toretoise extends Animal {
 		if (level.isClientSide) {
 			return;
 		}
-		playSound(eatCooldown == 0 ? ModSoundEvents.ENTITY_TORETOISE_EAT : ModSoundEvents.ENTITY_TORETOISE_EAT_SATIATED, 0.5F + 0.5F * level.random.nextInt(2), (level.random.nextFloat() - level.random.nextFloat()) * 0.2F + 1);
+		playSound(eatCooldown == 0 ? QuarkSounds.ENTITY_TORETOISE_EAT : QuarkSounds.ENTITY_TORETOISE_EAT_SATIATED, 0.5F + 0.5F * level.random.nextInt(2), (level.random.nextFloat() - level.random.nextFloat()) * 0.2F + 1);
 		heal(8);
 		if (!isTamed) {
 			isTamed = true;
@@ -294,7 +294,7 @@ public class Toretoise extends Animal {
 		return entityData.get(ORE_TYPE);
 	}
 
-	private void dropOre(int ore, LootContext.Builder lootContext) {
+	public void dropOre(int ore, LootContext.Builder lootContext) {
 		lootContext.withParameter(LootContextParams.ORIGIN, position());
 		BlockState dropState = null;
 		switch (ore) {
@@ -305,7 +305,7 @@ public class Toretoise extends Animal {
 			case 5 -> dropState = Blocks.COPPER_ORE.defaultBlockState();
 		}
 		if (dropState != null) {
-			playSound(ModSoundEvents.ENTITY_TORETOISE_HARVEST, 1F, 0.6F);
+			playSound(QuarkSounds.ENTITY_TORETOISE_HARVEST, 1F, 0.6F);
 			List<ItemStack> drops = dropState.getDrops(lootContext);
 			for (ItemStack drop : drops) {
 				spawnAtLocation(drop, 1.2F);
@@ -322,7 +322,7 @@ public class Toretoise extends Animal {
 				eatCooldown = 1200;
 				if (level instanceof ServerLevel serverLevel) {
 					serverLevel.sendParticles(ParticleTypes.CLOUD, getX(), getY() + 0.5, getZ(), 100, 0.6, 0.6, 0.6, 0);
-					playSound(ModSoundEvents.ENTITY_TORETOISE_REGROW, 10, 0.7F);
+					playSound(QuarkSounds.ENTITY_TORETOISE_REGROW, 10, 0.7F);
 				}
 			}
 		}

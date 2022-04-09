@@ -1,6 +1,7 @@
 package vazkii.quark.client;
 
 import vazkii.quark.client.model.entity.living.ToretoiseEntityModel;
+import vazkii.quark.client.render.entity.PickarangRenderer;
 import vazkii.quark.client.render.entity.ToretoiseEntityRenderer;
 import vazkii.quark.common.registry.ModEntityTypes;
 import vazkii.quark.common.util.ReacharoundHandler;
@@ -16,6 +17,7 @@ public class QuarkClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		EntityRendererRegistry.register(ModEntityTypes.GRAVISAND, FallingBlockRenderer::new);
+		EntityRendererRegistry.register(ModEntityTypes.PICKARANG, PickarangRenderer::new);
 		EntityRendererRegistry.register(ModEntityTypes.TORETOISE, ToretoiseEntityRenderer::new);
 		EntityModelLayerRegistry.registerModelLayer(ToretoiseEntityModel.TORETOISE_MODEL_LAYER, ToretoiseEntityModel::getLayerDefinition);
 		ReacharoundHandler.initClient();

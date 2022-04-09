@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "quarkdemo",
+  "id": "quark",
   "version": "${version}",
   "name": "Quark Demo Edition",
   "description": "Small things, improving Minecraft bit by bit. Demo Edition for BlanketCon",
