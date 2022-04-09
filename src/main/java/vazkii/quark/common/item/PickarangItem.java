@@ -1,4 +1,4 @@
-package moriyashiine.quark.common.item;
+package vazkii.quark.common.item;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;

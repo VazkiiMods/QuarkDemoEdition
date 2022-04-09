@@ -1,4 +1,4 @@
-package moriyashiine.quark.common.util;
+package vazkii.quark.common.util;
 
 import com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes;
 import com.mojang.blaze3d.platform.Window;

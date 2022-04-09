@@ -1,10 +1,10 @@
-package moriyashiine.quark.client.model.entity.living;
+package vazkii.quark.client.model.entity.living;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Vector3f;
-import moriyashiine.quark.common.Quark;
-import moriyashiine.quark.common.entity.Toretoise;
+import vazkii.quark.common.Quark;
+import vazkii.quark.common.entity.Toretoise;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.Minecraft;

@@ -1,9 +1,9 @@
-package moriyashiine.quark.client.render.entity.layer;
+package vazkii.quark.client.render.entity.layer;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import moriyashiine.quark.client.model.entity.living.ToretoiseEntityModel;
-import moriyashiine.quark.common.Quark;
-import moriyashiine.quark.common.entity.Toretoise;
+import vazkii.quark.client.model.entity.living.ToretoiseEntityModel;
+import vazkii.quark.common.Quark;
+import vazkii.quark.common.entity.Toretoise;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;

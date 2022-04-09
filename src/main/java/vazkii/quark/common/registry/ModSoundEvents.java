@@ -1,6 +1,6 @@
-package moriyashiine.quark.common.registry;
+package vazkii.quark.common.registry;
 
-import moriyashiine.quark.common.Quark;
+import vazkii.quark.common.Quark;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;

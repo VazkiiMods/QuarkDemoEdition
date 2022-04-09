@@ -1,6 +1,6 @@
-package moriyashiine.quark.common.entity;
+package vazkii.quark.common.entity;
 
-import moriyashiine.quark.common.registry.ModSoundEvents;
+import vazkii.quark.common.registry.ModSoundEvents;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;

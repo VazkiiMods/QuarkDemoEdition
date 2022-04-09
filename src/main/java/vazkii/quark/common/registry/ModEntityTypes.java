@@ -1,8 +1,8 @@
-package moriyashiine.quark.common.registry;
+package vazkii.quark.common.registry;
 
-import moriyashiine.quark.common.Quark;
-import moriyashiine.quark.common.entity.Gravisand;
-import moriyashiine.quark.common.entity.Toretoise;
+import vazkii.quark.common.Quark;
+import vazkii.quark.common.entity.Gravisand;
+import vazkii.quark.common.entity.Toretoise;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;

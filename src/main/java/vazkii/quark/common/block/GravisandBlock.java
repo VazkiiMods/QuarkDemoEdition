@@ -1,6 +1,6 @@
-package moriyashiine.quark.common.block;
+package vazkii.quark.common.block;
 
-import moriyashiine.quark.common.entity.Gravisand;
+import vazkii.quark.common.entity.Gravisand;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;

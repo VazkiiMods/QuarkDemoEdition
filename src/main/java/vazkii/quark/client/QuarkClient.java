@@ -1,9 +1,9 @@
-package moriyashiine.quark.client;
+package vazkii.quark.client;
 
-import moriyashiine.quark.client.model.entity.living.ToretoiseEntityModel;
-import moriyashiine.quark.client.render.entity.ToretoiseEntityRenderer;
-import moriyashiine.quark.common.registry.ModEntityTypes;
-import moriyashiine.quark.common.util.ReacharoundHandler;
+import vazkii.quark.client.model.entity.living.ToretoiseEntityModel;
+import vazkii.quark.client.render.entity.ToretoiseEntityRenderer;
+import vazkii.quark.common.registry.ModEntityTypes;
+import vazkii.quark.common.util.ReacharoundHandler;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

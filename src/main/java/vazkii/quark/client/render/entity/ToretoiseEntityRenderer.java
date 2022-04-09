@@ -1,9 +1,9 @@
-package moriyashiine.quark.client.render.entity;
+package vazkii.quark.client.render.entity;
 
-import moriyashiine.quark.client.model.entity.living.ToretoiseEntityModel;
-import moriyashiine.quark.client.render.entity.layer.TortoiseOreRenderLayer;
-import moriyashiine.quark.common.Quark;
-import moriyashiine.quark.common.entity.Toretoise;
+import vazkii.quark.client.model.entity.living.ToretoiseEntityModel;
+import vazkii.quark.client.render.entity.layer.TortoiseOreRenderLayer;
+import vazkii.quark.common.Quark;
+import vazkii.quark.common.entity.Toretoise;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;

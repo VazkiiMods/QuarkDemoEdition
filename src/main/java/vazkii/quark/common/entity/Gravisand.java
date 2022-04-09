@@ -1,7 +1,7 @@
-package moriyashiine.quark.common.entity;
+package vazkii.quark.common.entity;
 
-import moriyashiine.quark.common.registry.ModBlocks;
-import moriyashiine.quark.common.registry.ModEntityTypes;
+import vazkii.quark.common.registry.ModBlocks;
+import vazkii.quark.common.registry.ModEntityTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;

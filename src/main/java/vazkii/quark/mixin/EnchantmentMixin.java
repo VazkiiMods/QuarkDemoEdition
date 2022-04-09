@@ -1,6 +1,6 @@
-package moriyashiine.quark.mixin;
+package vazkii.quark.mixin;
 
-import moriyashiine.quark.common.item.PickarangItem;
+import vazkii.quark.common.item.PickarangItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
