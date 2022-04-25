@@ -16,6 +16,6 @@ public class Quark implements ModInitializer {
 		ModEntityTypes.init();
 		ModBlocks.init();
 		ModItems.init();
-		ReacharoundHandler.initCommon();
+		ReacharoundHandler.init();
 	}
 }
